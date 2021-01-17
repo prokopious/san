@@ -177,7 +177,7 @@ export default class SingleItem extends React.Component {
                     data-item-name={item.title}
                     data-item-description={item.blurb.en}
                     data-item-image={item.variants[0].images[0].asset.fluid.src}
-                    data-item-url={"http://www.localhost:8000/products/" + item.slug.current} //REPLACE WITH OWN URL
+                    data-item-url={"https://nostalgic-perlman-987c8c.netlify.app/products/" + item.slug.current} //REPLACE WITH OWN URL
                   >
                     Add to cart
                   </BuyButton>
@@ -214,7 +214,7 @@ export default class SingleItem extends React.Component {
                     data-item-name={item.title}
                     data-item-description={item.blurb.en}
                     data-item-image={item.variants[0].images[0].asset.fluid.src}
-                    data-item-url={"http://www.localhost:8000/products/" + item.slug.current} //REPLACE WITH OWN URL
+                    data-item-url={"https://nostalgic-perlman-987c8c.netlify.app/products/" + item.slug.current} 
                     data-item-custom1-name={item.variant_type}
                     data-item-custom1-options={this.createString(item.variants)}
                     data-item-custom1-value={selected.title}
@@ -247,7 +247,7 @@ export default class SingleItem extends React.Component {
                     data-item-name={item.title}
                     data-item-description={item.blurb.en}
                     data-item-image={item.variants[0].images[0].asset.fluid.src}
-                    data-item-url={"local/products/" + item.slug.current} //REPLACE WITH OWN URL
+                    data-item-url={"https://nostalgic-perlman-987c8c.netlify.app/products/" + item.slug.current} 
                     data-item-file-guid={item.variants[digitalVersion].guid}
                   >
                     Add to cart
@@ -285,7 +285,7 @@ export default class SingleItem extends React.Component {
                     data-item-name={item.title}
                     data-item-description={item.blurb.en}
                     data-item-image={item.variants[0].images[0].asset.fluid.src}
-                    data-item-url={"http://www.localhost:8000/products/" + item.slug.current} //REPLACE WITH OWN URL
+                    data-item-url={"https://nostalgic-perlman-987c8c.netlify.app/products/" + item.slug.current} 
                     data-item-custom1-name={item.variant_type}
                     data-item-custom1-options={this.createString(item.variants)}
                     data-item-custom1-value={selected.title}

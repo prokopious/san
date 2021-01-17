@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby + Sanity + Snipcart Ecommerce Starter`,
-    siteUrl: 'https://gatsbysnipcartsanity.netlify.app',
+    siteUrl: 'https://nostalgic-perlman-987c8c.netlify.app/',
     description: 'A Gatsby + Sanity + Snipcart Ecommerce Starter 🍞',
   },
   plugins: [
