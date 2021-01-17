@@ -13,14 +13,14 @@ module.exports = {
       resolve: 'gatsby-plugin-snipcartv3',
       options: {
         //this key is hooked up to a test snipcart account. replace this key with yours.
-        apiKey: 'ZTNkOWE1YmYtOGI4My00NDJhLTg5MzctODY4YTNiM2ViYWFkNjM3Mzc2MTU4MjUxNTM1Mzg3',
+        apiKey: 'ZYjllMDMzYjEtMDc5NS00ZDExLThlYWMtOWNjNDVjNmFmMDZlNjM3NDY1MjEyMzM2NjA1NjMz',
         autopop: true,
       }
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsbysnipcartsanity`,
+        name: `nostalgic-perlman-987c8c`,
         short_name: `gss`,
         start_url: `/`,
         background_color: `bg`,
